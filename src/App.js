@@ -21,7 +21,7 @@ function App() {
   const consultarApi = async () => {
     if(consultar){
           const appId = "8e34f913a6bd573d619b157d4adcc031"
-    const url=`http://api.openweathermap.org/data/2.5/weather?q=${ciudad},${pais}&appid=${appId}`;
+    const url=`https://api.openweathermap.org/data/2.5/weather?q=${ciudad},${pais}&appid=${appId}`;
 
     const repuesta = await fetch(url);
     const resultado = await repuesta.json();
@@ -40,6 +40,7 @@ function App() {
     }
   }
   consultarApi()
+   // eslint-disable-next-line 
   },[consultar])
   
   let componente;
