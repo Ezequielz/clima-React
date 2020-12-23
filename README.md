@@ -4,4 +4,4 @@ Este proyecto está enteramente desarrollado en React.js y tiene el fin de obten
 
 ## Puede ver el proyecto funcionando online!
 
-Haga click en el siguiente enlace --->[Clima](https://app.netlify.com/sites/clima-zapata/overview)
+Haga click en el siguiente enlace --->[Clima](https://clima-zapata.netlify.app/)
